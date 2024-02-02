@@ -9,7 +9,7 @@ variable "parameters" {
     "prod.backend.app_version" = { name = "prod.backend.app_version", type = "String", value = "1.4.0" },
     "prod.frontend.app_version" = { name = "prod.frontend.app_version", type = "String", value = "1.4.0" },
 
-    "ssh.username"            = { name = "ssh.username", type = "String", value = "root" },
+    "ssh.username"            = { name = "ssh.username", type = "String", value = "centos" },
     "artifactory.username"    = { name = "artifactory.username", type = "String", value = "admin" },
 
 
